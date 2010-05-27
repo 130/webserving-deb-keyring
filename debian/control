@@ -1,0 +1,17 @@
+Source: webserving-deb-keyring
+Section: utils
+Priority: extra
+Maintainer: Leonid Borisenko <leo.borisenko@gmail.com>
+Build-Depends: cdbs, debhelper (>= 5), po-debconf
+Build-Depends-Indep: gnupg
+Standards-Version: 3.8.3
+Homepage: http://webserving-deb.sourceforge.net
+Vcs-Browser: http://github.com/130/webserving-deb-keyring
+Vcs-Git: git://github.com/130/webserving-deb-keyring.git
+
+Package: webserving-deb-keyring
+Architecture: all
+Depends: ${misc:Depends}, apt, gnupg
+Description: GnuPG archive keys for the webserving-deb.sourceforge.net repository
+ webserving-deb.sourceforge.net digitally signs its Release files. This package
+ contains the archive key used for that.

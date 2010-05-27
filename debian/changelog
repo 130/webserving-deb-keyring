@@ -1,0 +1,7 @@
+webserving-deb-keyring (1.0.0) lenny; urgency=low
+
+  * Initial release
+  * Package structure was copied from emdebian-archive-keyring package
+    maintained by Neil Williams.
+
+ -- Leonid Borisenko <leo.borisenko@gmail.com>  Thu, 27 May 2010 21:18:32 +0000
